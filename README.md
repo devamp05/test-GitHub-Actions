@@ -1,19 +1,17 @@
-Testing different github actions for CI/CD pipeline.
-
+## Testing different github actions for CI/CD pipeline.
 Implemented a basic automated semantic version release that helps to release a new version with its release notes when code is pushed on main branch.
 
-Given a version number MAJOR.MINOR.PATCH, increment the:
+### Given a version number MAJOR.MINOR.PATCH, increment the:
+  **PATCH -> fix:** version when you make backward compatible bug fixes.\
+  **MINOR -> feat:** version when you add functionality in a backward compatible manner.\
+  **MAJOR -> BREAKING CHANGE:** version when you make incompatible API changes.
 
-MAJOR version when you make incompatible API changes
-MINOR version when you add functionality in a backward compatible manner
-PATCH version when you make backward compatible bug fixes
-
-commit convention for main branch:
-
+### commit convention for main branch:
   **fix: bug fix description for a patch release.   
   feat: new feature description for a minor release.   
   BREAKING CHANGE: description of breaking change for a major release.**
-  *Example: git commit -m "fix: YOUR MESSAGE"*
+
+  ***Example: ```git commit -m "fix: YOUR MESSAGE"```***
 
 
   other useful conventions:
@@ -27,7 +25,6 @@ commit convention for main branch:
         test: update integration tests
     
     3.Refactoring:
-    
         refactor: simplify code
         refactor: rename variable for clarity
         
@@ -36,8 +33,8 @@ commit convention for main branch:
         chore: update dependencies
     
     5. Style:
-      style: fix formatting issues
-      style: update CSS styling
+        style: fix formatting issues
+        style: update CSS styling
     
     6. Build:
         build: configure webpack settings
