@@ -10,9 +10,9 @@ PATCH version when you make backward compatible bug fixes
 
 commit convention for main branch:
 
-  fix: bug fix description for a patch release.
-  feat: new feature description for a minor release.
-  BREAKING CHANGE: description of breaking change for a major release.
+  **fix: bug fix description for a patch release.   
+  feat: new feature description for a minor release.   
+  BREAKING CHANGE: description of breaking change for a major release.**
 
 
   other useful conventions:
