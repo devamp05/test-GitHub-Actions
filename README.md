@@ -13,6 +13,7 @@ commit convention for main branch:
   **fix: bug fix description for a patch release.   
   feat: new feature description for a minor release.   
   BREAKING CHANGE: description of breaking change for a major release.**
+  *Example: git commit -m "fix: YOUR MESSAGE"*
 
 
   other useful conventions:
