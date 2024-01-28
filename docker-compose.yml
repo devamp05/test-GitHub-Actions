@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  node1:
+    build: .
+    container_name: nodejs
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/usr/src/app
+      - '/app/node_modules'
+    stdin_open: true
+    tty: true
